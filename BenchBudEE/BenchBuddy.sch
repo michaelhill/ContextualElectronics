@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "5 feb 2014"
+Date "23 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -105,14 +105,19 @@ F0 "TerminalBlock" 50
 F1 "TerminalBlock.sch" 50
 $EndSheet
 $Sheet
-S 8300 1600 1650 1050
+S 8300 1150 1650 1600
 U 52F279B9
 F0 "Fan" 50
 F1 "Fan.sch" 50
-F2 "Power+" O R 9950 1800 60 
-F3 "Power-" I R 9950 2000 60 
-F4 "Tach" I R 9950 2200 60 
-F5 "Tach_out" O L 8300 2000 60 
-F6 "Fan_in" I L 8300 1800 60 
+F2 "Power+" O R 9950 1350 60 
+F3 "Power-" I R 9950 1550 60 
+F4 "Tach" I R 9950 1750 60 
+F5 "Tach_out" O L 8300 2650 60 
+F6 "Fan_in" I L 8300 1350 60 
+F7 "Current Measure" O L 8300 2550 60 
+F8 "MOSI" I L 8300 1650 60 
+F9 "SCLK" I L 8300 1950 60 
+F10 "CS_N" I L 8300 1850 60 
+F11 "MISO" O L 8300 1750 60 
 $EndSheet
 $EndSCHEMATC
